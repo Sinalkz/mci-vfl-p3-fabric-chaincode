@@ -55,7 +55,7 @@ Read-only helpers: `ReadParticipant`, `ReadJob`, `ReadEpochPublic`,
 ### Multi-party-ready note
 
 The job holds a **list** of participants, not a hard-coded pair. The 2-party test
-exercises MCI + Bank, but adding a planned third party (**Digikala**) is just a
+exercises MCI + Bank, but adding a planned third party (an **E-commerce company**) is just a
 longer `participantsCSV` plus adding its MSP to the collection policy — no model
 change. Exactly one participant must be the `LABEL_OWNER`.
 
